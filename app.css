@@ -19,6 +19,11 @@ body {
     margin-bottom: 20px;
 }
 
+h1,
+h2 {
+    font-size: 1.5vw;
+}
+
 .buttons:hover {
     background-color: #d7b98c;
     color: white;
