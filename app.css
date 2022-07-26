@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.buttons {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+    padding: 20px 50px 20px 50px;
+    background-color: white;
+    color: tomato;
+    border: none;
+    transition: 0.3s;
+    margin-bottom: 20px;
+}
+
+.buttons:hover {
+    background-color: #d7b98c;
+    color: white;
+}
+
+#container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#gameField {
+    padding: 20px;
+    margin: 20px;
+    font-size: 1em;
+    background-color: tomato;
+    width: 500px;
+    min-height: 700px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+}
+
+canvas {
+    position: absolute;
+    top: 0 !important;
+}
+
+.imgs {
+    width: 150px;
+    height: 150px;
+}
+
+#containers {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playerComputer {
+    flex-direction: column;
+    margin: 0 40px 0 40px;
+}
+
+.lose {
+    background-color: black;
+    filter: grayscale(100%);
+    transition: 1s ease-in-out;
+}

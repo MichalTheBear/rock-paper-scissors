@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock paper</title>
+    <link rel="stylesheet" href="app.css">
+
+</head>
+
+<body>
+
+    <div id="container">
+        <div id="gameField">
+
+            <h1>ROCK PAPER SCISSORS</h1>
+            <h2>GET A COMFY CHAIR, RELAX<br>AND DESTROY THE COMPUTER</h2>
+            <h3>Score 5 to win the game!</h3>
+
+            <button onclick="playRoundRock()" id="buttonRock" class="buttons">Rock</button>
+            <button onclick="playRoundPaper()" id="buttonPaper" class="buttons">Paper</button>
+            <button onclick="playRoundScissors()" id="buttonScissors" class="buttons">Scissors</button>
+            <button onclick="resetButton()" id="buttonReset" class="buttons">Reset</button>
+
+            <div id="containers">
+                <div id="containerPlayer" class="playerComputer">
+                    <p>Player</p>
+                    <img src="./images/rock_paper_scissors.svg" alt="" class="imgs playerChoice">
+                </div>
+
+                <div id="containerComputer" class="playerComputer">
+                    <p>Computer</p>
+                    <img src="./images/rock_paper_scissors.svg" alt="" class="imgs computerChoice">
+                </div>
+            </div>
+
+            <p>Player Score:
+                <a id="playerClicks">0</a>
+            </p>
+
+            <p>Computer Score:
+                <a id="computerClicks">0</a>
+            </p><br>
+
+            <p id="winnerIs">And the winner is:<br>
+                <a id="whoWon"></a>
+            </p>
+        </div>
+    </div>
+
+</body>
+
+<script src="confetti.js"></script>
+<script src="app.js"></script>
+
+</html>
