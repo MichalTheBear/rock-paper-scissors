@@ -75,7 +75,6 @@ canvas {
 
 @media only screen and (max-width: 600px) {
     #gameField {
-        min-height: 1000px;
         padding: 150px 0 50px 0;
         width: 100% !important;
     }
@@ -86,7 +85,8 @@ canvas {
     }
 
     h1 {
-        padding-top: 50px;
+        padding-top: 100px;
+        margin-top: 100px
     }
 
 }
